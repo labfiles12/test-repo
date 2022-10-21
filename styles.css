@@ -1,0 +1,31 @@
+html{
+    background: #0d0d0d
+}
+.calculator-frame { 
+    border-radius: 10px;
+    padding: 10px;
+    height: 500px;
+    width: 450px;
+    margin: auto;
+    background-color: #1d4e55;
+}
+.res-box {
+    font-family: 'roboto';
+    border: solid #12f4ff 2px;
+    background-color: #0f0f0f;
+    color: white;
+    border-radius: 10px;
+    height: 50%;
+    width: 100%;
+
+}
+
+input {
+    font-family: 'roboto';
+    background-color: #256D85;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}

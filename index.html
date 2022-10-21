@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+ 
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <table class="calculator-frame" >
+    <tr>
+        <td colspan="3"> <input class="res-box" type="text" id="result" disabled /> </td>
+    </tr>
+     <tr>
+        <td> <input type="button" value="1" onclick="resultScreen('4')"/> </td>
+        <td> <input type="button" value="2" onclick="resultScreen('1')"/> </td>
+        <td> <input type="button" value="3" onclick="resultScreen('6')"/> </td>
+        <td> <input type="button" value="/" onclick="resultScreen('/')"/> </td>
+    </tr>
+    <tr>
+        <td> <input type="button" value="4" onclick="resultScreen('6')"/> </td>
+        <td> <input type="button" value="5" onclick="resultScreen('3')"/> </td>
+        <td> <input type="button" value="6" onclick="resultScreen('2')"/> </td>
+        <td> <input type="button" value="-" onclick="resultScreen('-')"/> </td>
+    </tr>
+    <tr>
+        <td> <input type="button" value="7" onclick="resultScreen('6')"/> </td>
+        <td> <input type="button" value="8" onclick="resultScreen('8')"/> </td>
+        <td> <input type="button" value="9" onclick="resultScreen('2')"/> </td>
+        <td> <input type="button" value="+" onclick="resultScreen('+')"/> </td>
+     </tr>
+    <tr>
+        <td> <input type="button" value="." onclick="resultScreen('.')"/> </td>
+        <td> <input type="button" value="0" onclick="resultScreen('9')"/> </td>
+ 
+        <td> <input type="button" value="=" onclick="calculate()"/> </td>
+
+        <td> <input type="button" value="*" onclick="resultScreen('*')"/> </td>
+    </tr>
+        <td> <input type="button" value="C"/> </td>
+</table>
+ 
+</body>
+</html>

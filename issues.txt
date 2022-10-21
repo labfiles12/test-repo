@@ -1,0 +1,11 @@
+HTML
+    In Head Section
+        >Add title text and calculator icon to display it in title & Link the CSS file which is already present 
+    Body Section
+        >The values in button and the result that comes on clicking it doesnt match, fix them
+CSS 
+    >Change = Buttons Color for result and clearscreen from red to green
+    >change the button color when the button is clicked
+
+JavaScript
+    >Implement Clear Screen function when the user presses the C button
